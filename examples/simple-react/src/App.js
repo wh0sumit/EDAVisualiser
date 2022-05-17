@@ -13,22 +13,20 @@ function App() {
       <ApplicationView>
         <Application
           id="string"
-          defaultContentType="string"
-          description="string"
-          title="string"
-          version="string"
+          defaultContentType="application/json"
+          description="Some kind of description"
+          title="Application Title"
+          version="0.0.1"
           license={{
-            name: 'string',
-            url: 'string',
+            name: 'Apache2.0',
+            url: 'https://www.apache.org/licenses/LICENSE-2.0',
           }}
-          externalDocs="string"
           servers={[
             {
-              name: 'string',
-              url: 'string',
-              description: 'string',
-              protocol: 'string',
-              protocolVersion: 'string',
+              name: 'Production server',
+              url: 'myproduction.com/mqtt',
+              description: 'production server description',
+              protocol: 'mqtt',
             },
           ]}
         >

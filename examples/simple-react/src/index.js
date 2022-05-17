@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Asyncapi from './Asyncapi';
+import App from './App';
 import SystemView from './SystemView';
 import reportWebVitals from './reportWebVitals';
 
